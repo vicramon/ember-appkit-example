@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: appkit-test_development
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: appkit-test_test
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: appkit-test_production
+  pool: 5
