@@ -1,0 +1,11 @@
+<div>
+  <label for="">Name</label>
+  {{input value=name}}
+</div>
+<div>
+  <label for="">Email</label>
+  {{input value=email}}
+</div>
+
+<button type="submit" {{action save this}}>Save</button>
+<button type="submit" {{action cancel this}}>Cancel</button>
